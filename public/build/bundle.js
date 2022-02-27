@@ -5024,6 +5024,8 @@ var app = (function () {
 
     const createClient = () => new _default({ baseUrl: BACKEND_URL });
 
+    console.log("medusa is working!");
+
     const checkoutStore = writable({
         currentCheckoutStep : "Information",
         hasSelectedShipping : false
